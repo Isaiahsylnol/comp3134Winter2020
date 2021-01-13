@@ -1,0 +1,18 @@
+1. In computer networking, a port is a communication endpoint. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. Ports are identified for each transport protocol and address combination using a 16-bit unsigned number or signed, known as the port number.
+
+2. Port numbers range from 0 to 65535
+
+3. 16 bits
+
+4.
+
+22 - Secure Shell (SSH) 
+25 - Simple Mail Transfer Protocol (SMTP)
+110 - Post Office Protocol (POP3)
+443 - HTTP with Secure Sockets Layer (SSL)
+80 - HTTP
+993 - IMAPS
+53 - DNS
+123 - Network Time Protocol (NTP) 
+23 - Telnet
+3389 - Remote Desktop Protocol
