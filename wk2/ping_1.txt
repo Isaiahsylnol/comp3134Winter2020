@@ -1,0 +1,1 @@
+Reply from 54.239.28.85: bytes=32 time=21ms TTL=236

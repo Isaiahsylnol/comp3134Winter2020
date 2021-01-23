@@ -1,0 +1,1 @@
+64 bytes from 104.244.42.1: icmp_seq=15 ttl=55 time=29.2 ms

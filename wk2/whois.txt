@@ -1,0 +1,141 @@
+Name: Amazon Registrar, Inc.
+Whois Server: whois.registrar.amazon.com
+Referral URL: https://registrar.amazon.com
+Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+renewPeriod https://icann.org/epp#renewPeriod
+
+Expires On 2021-05-26
+Registered On 1998-05-27
+Updated On 2020-04-21
+
+-----------------------------------------------------------------------
+
+Registrant Contact Information:
+Name: Hostmaster, Amazon Legal Dept.
+Organization: Amazon Technologies, Inc.
+Address: P.O. Box 8102
+City: Reno
+State / Province: NV
+Postal Code: 89507
+Country: US
+Phone: +1.2062664064
+Fax: +1.2062667010
+Email
+
+Administrative Contact Information:
+Name: Hostmaster, Amazon Legal Dept.
+Organization Amazon Technologies, Inc.
+Address: P.O. Box 8102
+City: Reno
+State / Province: NV
+Postal Code: 89507
+Country: US
+Phone: +1.2062664064
+Fax: +1.2062667010
+Email 
+
+Technical Contact Information:
+Name: Hostmaster, Amazon Legal Dept.
+Organization Amazon Technologies, Inc.
+Address: P.O. Box 8102
+City: Reno
+State / Province NV
+Postal Code: 89507
+Country: US
+Phone: +1.2062664064
+Fax: +1.2062667010
+Email
+
+-----------------------------------------------------------------------
+
+Registrant Contact Information:
+Name: Domain Administrator
+Organization: BBY Solutions, Inc.
+Address: 7601 Penn Avenue South, B6 - Legal Dept
+City: Richfield
+State / Province: MN
+Postal Code: 55423
+Country: US
+Phone: +1.6122911000
+Email
+
+Administrative Contact Information:
+Name: Domain Administrator
+Organization: BBY Solutions, Inc.
+Address: 7601 Penn Avenue South, B6 - Legal Dept
+City: Richfield
+State / Province: MN
+Postal Code: 55423
+Country: US
+Phone: +1.6122911000
+Email
+
+-----------------------------------------------------------------------
+
+Registrant Contact Information:
+Name: Domain Admin Sony
+Organization: Sony Corporation of America
+Address: One Sony Drive, MD 2B4
+City: Park Ridge
+State / Province: NJ
+Postal Code: 07656
+Country: US
+Phone: +1.2019306175
+Fax: +1.2019306918
+Email
+
+Administrative Contact Information:
+Name: Domain Admin Sony
+Organization: Sony Corporation of America
+Address: One Sony Drive, MD 2B4
+City: Park Ridge
+State / Province: NJ
+Postal Code: 07656
+Country: US
+Phone: +1.2019306175
+Fax: +1.2019306918
+Email
+
+Technical Contact Information:
+Name: Domain Admin Sony
+Organization: Sony Corporation of America
+Address: One Sony Drive, MD 2B4
+City: Park Ridge
+State / Province: NJ
+Postal Code: 07656
+Country: US
+Phone: +1.2019306175
+Fax: +1.2019306918
+Email
+
+------------------------------------------------------------------------
+
+Registrant Contact Information:
+Name: DNS Master IT Department -
+Organization: Acer Incorporated
+Address: 8F, No. 88, Sec. 1, Hsin Tai Wu Rd.,
+City: Hsichih Taipei Hsien
+Postal Code: 221
+Country: TW
+Phone: +886.2269612341676
+Email
+
+Administrative Contact Information:
+Name: DNS Master IT Department -
+Organization: Acer Incorporated
+Address8F, No. 88, Sec. 1, Hsin Tai Wu Rd.,
+CityHsichih Taipei Hsien
+Postal Code221
+CountryTW
+Phone+886.2269612341676
+Email
+
+Technical Contact Information:
+NameDNS Master IT Department -
+OrganizationAcer Incorporated
+Address8F, No. 88, Sec. 1, Hsin Tai Wu Rd.,
+CityHsichih Taipei Hsien
+Postal Code221
+CountryTW
+Phone+886.2269612341676
+Email

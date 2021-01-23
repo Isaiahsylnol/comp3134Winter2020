@@ -1,0 +1,42 @@
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# nmap 184.145.65.145
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 19:17 UTC
+Nmap scan report for bras-base-toroon0560w-grc-33-184-145-65-145.dsl.bell.ca (184.145.65.145)
+Host is up (0.0030s latency).
+Not shown: 999 filtered ports
+PORT      STATE SERVICE
+50001/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 20.17 seconds
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+-----------------------------------------------------------------------
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 8088 184.145.65.145      Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 19:51 UTC
+Nmap scan report for bras-base-toroon0560w-grc-33-184-145-65-145.dsl.bell.ca (184.145.65.145)
+Host is up (0.0032s latency).
+
+PORT     STATE    SERVICE
+8088/tcp filtered radan-http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+
+-----------------------------------------------------------------------
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 8088-9099 184.145.65.145
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 19:59 UTC
+Nmap scan report for bras-base-toroon0560w-grc-33-184-145-65-145.dsl.bell.ca (184.145.65.145)
+Host is up (0.0031s latency).
+All 1012 scanned ports on bras-base-toroon0560w-grc-33-184-145-65-145.dsl.bell.ca (184.145.65.145) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 21.57 seconds
+
+-----------------------------------------------------------------------
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F 184.145.65.145
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 21:07 UTC
+Nmap scan report for bras-base-toroon0560w-grc-33-184-145-65-145.dsl.bell.ca (184.145.65.145)
+Host is up (0.0033s latency).
+All 100 scanned ports on bras-base-toroon0560w-grc-33-184-145-65-145.dsl.bell.ca (184.145.65.145) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 3.10 seconds
