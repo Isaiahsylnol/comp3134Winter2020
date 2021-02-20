@@ -1,0 +1,48 @@
+# tcpdump -i eth0
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:33:24.039686 IP 192.168.2.24.59612 > 239.255.255.250.15600: UDP, length 35
+18:33:24.040250 IP 192.168.2.66.46351 > mynetwork.domain: 5280+ PTR? 250.255.255.239.in-addr.arpa. (46)
+18:33:24.065329 IP mynetwork.domain > 192.168.2.66.46351: 5280 NXDomain 0/1/0 (103)
+18:33:24.065613 IP 192.168.2.66.57671 > mynetwork.domain: 12579+ PTR? 24.2.168.192.in-addr.arpa. (43)
+18:33:24.068531 IP mynetwork.domain > 192.168.2.66.57671: 12579 NXDomain* 0/0/0 (43)
+18:33:24.068794 IP 192.168.2.66.36916 > mynetwork.domain: 21798+ PTR? 1.2.168.192.in-addr.arpa. (42)
+18:33:24.073817 IP mynetwork.domain > 192.168.2.66.36916: 21798* 1/0/0 PTR mynetwork. (65)
+18:33:24.074017 IP 192.168.2.66.59204 > mynetwork.domain: 38096+ PTR? 66.2.168.192.in-addr.arpa. (43)
+18:33:24.075789 IP mynetwork.domain > 192.168.2.66.59204: 38096 NXDomain* 0/0/0 (43)
+18:33:24.450468 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:33:24.450731 IP 192.168.2.66.59020 > mynetwork.domain: 48710+ PTR? 11.2.168.192.in-addr.arpa. (43)
+18:33:24.452832 IP mynetwork.domain > 192.168.2.66.59020: 48710 NXDomain* 0/0/0 (43)
+18:33:24.553989 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:33:24.554235 IP 192.168.2.66.53770 > mynetwork.domain: 13776+ PTR? 16.2.168.192.in-addr.arpa. (43)
+18:33:24.558772 IP mynetwork.domain > 192.168.2.66.53770: 13776 NXDomain* 0/0/0 (43)
+18:33:25.267840 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:33:25.575206 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:33:25.575513 IP 192.168.2.66.33389 > mynetwork.domain: 1550+ PTR? 17.2.168.192.in-addr.arpa. (43)
+18:33:25.578092 IP mynetwork.domain > 192.168.2.66.33389: 1550 NXDomain* 0/0/0 (43)
+18:33:25.984594 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:33:25.984847 IP 192.168.2.66.57883 > mynetwork.domain: 55161+ PTR? 14.2.168.192.in-addr.arpa. (43)
+18:33:25.986696 IP mynetwork.domain > 192.168.2.66.57883: 55161 NXDomain* 0/0/0 (43)
+18:33:27.007838 IP 192.168.2.24.54933 > 192.168.2.255.15600: UDP, length 35
+18:33:27.008086 IP 192.168.2.66.35778 > mynetwork.domain: 20660+ PTR? 255.2.168.192.in-addr.arpa. (44)
+18:33:27.009787 IP mynetwork.domain > 192.168.2.66.35778: 20660 NXDomain* 0/0/0 (44)
+18:33:27.214626 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:33:27.214677 IP 192.168.2.18.mdns > 224.0.0.251.mdns: 0*- [0q] 1/0/1 (Cache flush) TXT "rpBA=72:18:0B:EF:CF:13" "rpAD=f113d273b66a" "rpFl=0x20000" "rpHN=b4d3ef6a64fd" "rpVr=195.2" (166)
+18:33:27.214968 IP 192.168.2.66.33623 > mynetwork.domain: 52697+ PTR? 251.0.0.224.in-addr.arpa. (42)
+18:33:27.239209 IP mynetwork.domain > 192.168.2.66.33623: 52697 NXDomain 0/1/0 (99)
+18:33:27.239461 IP 192.168.2.66.52147 > mynetwork.domain: 36361+ PTR? 18.2.168.192.in-addr.arpa. (43)
+18:33:27.241669 IP mynetwork.domain > 192.168.2.66.52147: 36361 NXDomain* 0/0/0 (43)
+18:33:27.420534 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:33:27.521932 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:33:28.236370 IP 192.168.2.18.mdns > 224.0.0.251.mdns: 0*- [0q] 1/0/1 (Cache flush) TXT "rpBA=72:18:0B:EF:CF:13" "rpAD=f113d273b66a" "rpFl=0x20000" "rpHN=b4d3ef6a64fd" "rpVr=195.2" (166)
+18:33:28.543758 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:33:28.953264 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:33:29.078828 ARP, Request who-has 192.168.2.66 tell mynetwork, length 46
+18:33:29.078894 ARP, Reply 192.168.2.66 is-at 08:00:27:70:f3:56 (oui Unknown), length 28
+18:33:29.259449 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:33:29.362306 IP 192.168.2.63.17500 > 255.255.255.255.17500: UDP, length 134
+18:33:29.362320 IP 192.168.2.63.17500 > 192.168.2.255.17500: UDP, length 134
+18:33:29.362555 IP 192.168.2.66.51204 > mynetwork.domain: 2914+ PTR? 255.255.255.255.in-addr.arpa. (46)
+18:33:29.389710 IP mynetwork.domain > 192.168.2.66.51204: 2914 NXDomain 0/1/0 (114)
+18:33:29.389965 IP 192.168.2.66.60592 > mynetwork.domain: 20623+ PTR? 63.2.168.192.in-addr.arpa. (43)

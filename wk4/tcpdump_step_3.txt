@@ -1,0 +1,202 @@
+# tcpdump -A -i eth0  
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:43:13.017823 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+........T.y...................................
+18:43:13.018421 IP 192.168.2.66.54207 > mynetwork.domain: 2565+ PTR? 1.2.168.192.in-addr.arpa. (42)
+E..F..@.@..m...B.......5.2..
+............1.2.168.192.in-addr.arpa.....
+18:43:13.020605 IP mynetwork.domain > 192.168.2.66.54207: 2565* 1/0/0 PTR mynetwork. (65)
+E..]..@.@..........B.5...I..
+............1.2.168.192.in-addr.arpa.................   mynetwork.
+18:43:13.020811 IP 192.168.2.66.38537 > mynetwork.domain: 2172+ PTR? 24.2.168.192.in-addr.arpa. (43)
+E..G..@.@..k...B.......5.3...|...........24.2.168.192.in-addr.arpa.....
+18:43:13.022289 IP mynetwork.domain > 192.168.2.66.38537: 2172 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5...3.x.|...........24.2.168.192.in-addr.arpa.....
+18:43:13.022616 IP 192.168.2.66.47769 > mynetwork.domain: 50601+ PTR? 66.2.168.192.in-addr.arpa. (43)
+E..G..@.@..j...B.......5.3...............66.2.168.192.in-addr.arpa.....
+18:43:13.024196 IP mynetwork.domain > 192.168.2.66.47769: 50601 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5...3.6.............66.2.168.192.in-addr.arpa.....
+18:43:13.729299 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+EX...................K.........,...hI...        .bM..!...1....V...2..T.LC...m..|G.w.NOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 1/29/2021 6:56:55 AM
+x-location: http://192.168.2.17:8080/dvrfs/info.xml
+x-device: a097864a-e29e-47b8-abac-789678106ef8
+x-debug: http://192.168.2.17:8080
+
+<node count='601178'><activities><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><schedver dver='3' ver='4904' pendcap='False' /><x/></activities></node>
+18:43:13.729619 IP 192.168.2.66.48090 > mynetwork.domain: 27770+ PTR? 250.255.255.239.in-addr.arpa. (46)
+E..J..@.@......B.......5.6..lz...........250.255.255.239.in-addr.arpa.....
+18:43:13.731601 IP mynetwork.domain > 192.168.2.66.48090: 27770 NXDomain 0/0/0 (46)
+E..J..@.@..........B.5...6..lz...........250.255.255.239.in-addr.arpa.....
+18:43:13.731798 IP 192.168.2.66.38382 > mynetwork.domain: 43027+ PTR? 17.2.168.192.in-addr.arpa. (43)
+E..G..@.@......B.......5.3...............17.2.168.192.in-addr.arpa.....
+18:43:13.733276 IP mynetwork.domain > 192.168.2.66.38382: 43027 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5...32}.............17.2.168.192.in-addr.arpa.....
+18:43:14.139422 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+EX..Z................'.........,...hI...        .bM..!...1....V.%........_..r.;./>.wNOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 2/5/2021 9:29:22 AM
+x-location: http://192.168.2.14:8080/dvrfs/info.xml
+x-device: a6469404-91cb-4c50-948e-b1ab838f426f
+x-debug: http://192.168.2.14:8080
+
+<node count='601341'><activities><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><schedver dver='3' ver='4904' pendcap='False' /><x/></activities></node>
+18:43:14.139718 IP 192.168.2.66.58140 > mynetwork.domain: 21000+ PTR? 14.2.168.192.in-addr.arpa. (43)
+E..G.1@.@......B.......5.3..R............14.2.168.192.in-addr.arpa.....
+18:43:14.144276 IP mynetwork.domain > 192.168.2.66.58140: 21000 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5...3>ZR............14.2.168.192.in-addr.arpa.....
+18:43:14.858764 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+EX........u...............:@...,...hI...        .bM..!...1....V.....E.._Qm...f.+q.K.NOTIFY * HTTP/1.1
+x-type: dvr
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 2/5/2021 10:46:15 PM
+x-location: http://192.168.2.11:8080/dvrfs/info.xml
+x-device: fca23b13-aca4-4f2c-a7db-c13f628d8df0
+x-debug: http://192.168.2.11:8080
+
+<node count='602891'><activities><schedver dver='3' ver='4904' pendcap='True' /><x/><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><recreq src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e?r=6800000&amp;p=8208&amp;ssrc0=2524473277&amp;r0=6800000&amp;ch=1205&amp;profile=multicastICC&amp;forceDetune=true&amp;age=-1&amp;skip=0' st='0x0000000000000000' et='0xFFFFFFFFFFFFFFFF' postpad='0' rate='6800000' pri='1'/><recordver ver='5675' verid='10148' size='976031318016' free='789267349504' /><x/><tune src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e' pipe='FULLSCREEN' ct='0xe3c856979bc25b59' pil='0x0' rate='0x67c280' stopped='false'/><tune src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e' rate='0x67c280' pil='0x0'/><record url='http://192.168.2.11:8080/dvrfs/v167' src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e' pri='1' st='0xe3c849306d1493f1' et='0xe3c85697d2d618c6' stopped='false'/></activities></node>
+18:43:14.859043 IP 192.168.2.66.60506 > mynetwork.domain: 22156+ PTR? 11.2.168.192.in-addr.arpa. (43)
+E..G..@.@..D...B.....Z.5.3..V............11.2.168.192.in-addr.arpa.....
+18:43:14.861183 IP mynetwork.domain > 192.168.2.66.60506: 22156 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5.Z.33.V............11.2.168.192.in-addr.arpa.....
+18:43:14.956272 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+........T.y...................................
+18:43:15.163216 IP 192.168.2.24.37444 > 192.168.2.255.15600: UDP, length 35
+E..?.#@.@."#.........D<..+a.SEARCH BSDP/0.1
+DEVICE=0
+SERVICE=1
+
+18:43:15.163444 IP 192.168.2.66.41265 > mynetwork.domain: 38035+ PTR? 255.2.168.192.in-addr.arpa. (44)
+E..H..@.@..#...B.....1.5.4...............255.2.168.192.in-addr.arpa.....
+18:43:15.165096 IP mynetwork.domain > 192.168.2.66.41265: 38035 NXDomain* 0/0/0 (44)
+E..H..@.@..........B.5.1.4...............255.2.168.192.in-addr.arpa.....
+18:43:15.673305 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+EX........      J...................,...hI...   .bM..!...1....V...>........#..8....=NOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 1/1/2003 8:00:29 PM
+x-location: http://192.168.2.16:8080/dvrfs/info.xml
+x-device: 32278dc0-48b6-4179-b80d-dd39efec88b0
+x-debug: http://192.168.2.16:8080
+
+<node count='600150'><activities><schedver dver='3' ver='4904' pendcap='False' /><x/><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/></activities></node>
+18:43:15.673574 IP 192.168.2.66.56612 > mynetwork.domain: 50213+ PTR? 16.2.168.192.in-addr.arpa. (43)
+E..G.f@.@......B.....$.5.3...%...........16.2.168.192.in-addr.arpa.....
+18:43:15.675685 IP mynetwork.domain > 192.168.2.66.56612: 50213 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5.$.3.4.%...........16.2.168.192.in-addr.arpa.....
+18:43:15.777463 IP 192.168.2.22.53270 > 239.255.255.250.1900: UDP, length 137
+E....U....w:...........l....M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+MAN: "ssdp:discover"
+MX: 4
+
+
+18:43:15.777527 IP 192.168.2.22.53270 > 239.255.255.250.1900: UDP, length 132
+E....H.....L...........l....M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+ST: urn:schemas-upnp-org:service:WANIPConnection:1
+MAN: "ssdp:discover"
+MX: 4
+
+
+18:43:15.777528 IP 192.168.2.22.53270 > 239.255.255.250.1900: UDP, length 133
+E.........D............l....M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+ST: urn:schemas-upnp-org:service:WANPPPConnection:1
+MAN: "ssdp:discover"
+MX: 4
+
+
+18:43:15.777837 IP 192.168.2.66.39335 > mynetwork.domain: 40651+ PTR? 22.2.168.192.in-addr.arpa. (43)
+E..G.y@.@......B.......5.3...............22.2.168.192.in-addr.arpa.....
+18:43:15.783982 IP mynetwork.domain > 192.168.2.66.39335: 40651 NXDomain* 0/0/0 (43)
+E..G..@.@..........B.5...3=..............22.2.168.192.in-addr.arpa.....
+18:43:16.799135 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+EX...................K.....D...,...hI...        .bM..!...1....V...`@.r.7Tx......A.mfNOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 1/29/2021 6:56:55 AM
+x-location: http://192.168.2.17:8080/dvrfs/info.xml
+x-device: a097864a-e29e-47b8-abac-789678106ef8
+x-debug: http://192.168.2.17:8080
+
+<node count='601179'><activities><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><schedver dver='3' ver='4904' pendcap='False' /><x/></activities></node>
+18:43:17.003240 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+........T.y...................................
+18:43:17.209124 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+EX..Z................'.....B...,...hI...        .bM..!...1....V.%.-x.#.....Z'...(%..NOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 2/5/2021 9:29:22 AM
+x-location: http://192.168.2.14:8080/dvrfs/info.xml
+x-device: a6469404-91cb-4c50-948e-b1ab838f426f
+x-debug: http://192.168.2.14:8080
+
+<node count='601342'><activities><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><schedver dver='3' ver='4904' pendcap='False' /><x/></activities></node>
+18:43:17.823836 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+EX........u................i...,...hI...        .bM..!...1....V..H...l......*....6..NOTIFY * HTTP/1.1
+x-type: dvr
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 2/5/2021 10:46:15 PM
+x-location: http://192.168.2.11:8080/dvrfs/info.xml
+x-device: fca23b13-aca4-4f2c-a7db-c13f628d8df0
+x-debug: http://192.168.2.11:8080
+
+<node count='602892'><activities><schedver dver='3' ver='4904' pendcap='True' /><x/><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><recreq src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e?r=6800000&amp;p=8208&amp;ssrc0=2524473277&amp;r0=6800000&amp;ch=1205&amp;profile=multicastICC&amp;forceDetune=true&amp;age=-1&amp;skip=0' st='0x0000000000000000' et='0xFFFFFFFFFFFFFFFF' postpad='0' rate='6800000' pri='1'/><recordver ver='5675' verid='10148' size='976031318016' free='789267349504' /><x/><tune src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e' pipe='FULLSCREEN' ct='0xe3c8569aa0ccb047' pil='0x0' rate='0x67c280' stopped='false'/><tune src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e' rate='0x67c280' pil='0x0'/><record url='http://192.168.2.11:8080/dvrfs/v167' src='udp://239.0.54.210:1140:c2b99475-c4c6-4248-af5a-8d138a721b2e' pri='1' st='0xe3c849306d1493f1' et='0xe3c8569b79eee266' stopped='false'/></activities></node>
+18:43:18.129128 IP 192.168.2.24.60309 > 239.255.255.250.15600: UDP, length 35
+E..?W.@.@./...........<..+..SEARCH BSDP/0.1
+DEVICE=0
+SERVICE=1
+
+18:43:18.642421 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+EX........      I..............pQ...,...hI...   .bM..!...1....V..E.Wi..!q7{...hCf...NOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 1/1/2003 8:00:29 PM
+x-location: http://192.168.2.16:8080/dvrfs/info.xml
+x-device: 32278dc0-48b6-4179-b80d-dd39efec88b0
+x-debug: http://192.168.2.16:8080
+
+<node count='600151'><activities><schedver dver='3' ver='4904' pendcap='False' /><x/><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/></activities></node>
+18:43:18.951806 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+........T.y...................................
+18:43:19.360792 IP 192.168.2.22.mdns > 224.0.0.251.mdns: 0*- [0q] 6/0/3 (Cache flush) PTR PS4-EC131D.local., (Cache flush) TXT "CPath=/spConn", PTR _spotify-connect._tcp.local., PTR SpZc-EC131D._spotify-connect._tcp.local., (Cache flush) A 192.168.2.22, (Cache flush) SRV PS4-EC131D.local.:41800 0 0 (270)
+E..*.{....5..............................22.2.168.192.in-addr.arpa........x..
+PS4-EC131D.local..SpZc-EC131D._spotify-connect._tcp.<...........CPath=/spConn   _services._dns-sd._udp.<...........O.O...........C.1.......x.......C.!.....x.......H.1.../.....x.........C./.......  .C......@.1./.....x...1..@
+18:43:19.361006 IP 192.168.2.66.52267 > mynetwork.domain: 55765+ PTR? 251.0.0.224.in-addr.arpa. (42)
+E..F..@.@......B.....+.5.2...............251.0.0.224.in-addr.arpa.....
+18:43:19.385009 IP mynetwork.domain > 192.168.2.66.52267: 55765 NXDomain 0/1/0 (99)
+E.....@.@..........B.5.+.k...............251.0.0.224.in-addr.arpa................-.sns.dns.icann.org..noc.:xv2.... .....        :.....
+18:43:19.680387 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [P.], seq 4184431366:4184431390, ack 2986162974, win 530, options [nop,nop,TS val 2320382314 ecr 1996100446], length 24
+E..L..@./.W."..l...B.....i[...;......V.....
+.N9jv..^.....p@....$q5;K..h.N67>
+18:43:19.680699 IP 192.168.2.66.44325 > mynetwork.domain: 12037+ PTR? 108.138.233.34.in-addr.arpa. (45)
+E..I.=@.@......B.....%.5.5../............108.138.233.34.in-addr.arpa.....
+18:43:19.683106 IP 192.168.2.66.34584 > ec2-34-233-138-108.compute-1.amazonaws.com.https: Flags [P.], seq 1:29, ack 24, win 501, options [nop,nop,TS val 1996110441 ecr 2320382314], length 28
+E..P..@.@......B"..l......;..i[.....p......
+v.:i.N9j.....H...A..A...rK..|...W`Pw
+18:43:19.702371 IP mynetwork.domain > 192.168.2.66.44325: 12037 1/5/0 PTR ec2-34-233-138-108.compute-1.amazonaws.com. (214)
+E.....@.@..g.......B.5.%..../............108.138.233.34.in-addr.arpa..............,.,.ec2-34-233-138-108        compute-1       amazonaws.com..............x2.V.............x3       amazonaws.org..............x1.V.............x4...............pdns1.ultradns.net.
+18:43:19.705736 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [.], ack 29, win 530, options [nop,nop,TS val 2320382338 ecr 1996110441], length 0
+E..4..@./.W."..l...B.....i[...;:...........
+.N9.v.:i
+18:43:19.774760 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+EX...................K....#4...,...hI...        .bM..!...1....V....T...X... K.y.9...NOTIFY * HTTP/1.1
+x-type: display
+x-filter: 8dcda11c-e813-40e6-a569-99de099c02f0
+x-lastUserActivity: 1/29/2021 6:56:55 AM
+x-location: http://192.168.2.17:8080/dvrfs/info.xml
+x-device: a097864a-e29e-47b8-abac-789678106ef8
+x-debug: http://192.168.2.17:8080
+
+<node count='601180'><activities><p15n stamp='08D3BC9D4DD47AF0F80BBEBB72C4'/><schedver dver='3' ver='4904' pendcap='False' /><x/></activities></node>
+^C
+46 packets captured
+46 packets received by filter
+0 packets dropped by kernel

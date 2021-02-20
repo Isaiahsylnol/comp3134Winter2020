@@ -1,0 +1,18 @@
+# tcpdump -i eth0 tcp
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:51:59.117516 IP ec2-52-26-20-242.us-west-2.compute.amazonaws.com.https > 192.168.2.66.54748: Flags [P.], seq 3859570102:3859570133, ack 111337767, win 118, options [nop,nop,TS val 2704612372 ecr 1853084525], length 31
+18:51:59.117631 IP 192.168.2.66.54748 > ec2-52-26-20-242.us-west-2.compute.amazonaws.com.https: Flags [.], ack 31, win 501, options [nop,nop,TS val 1853384437 ecr 2704612372], length 0
+18:51:59.117867 IP 192.168.2.66.54748 > ec2-52-26-20-242.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1:36, ack 31, win 501, options [nop,nop,TS val 1853384437 ecr 2704612372], length 35
+18:51:59.187358 IP ec2-52-26-20-242.us-west-2.compute.amazonaws.com.https > 192.168.2.66.54748: Flags [.], ack 36, win 118, options [nop,nop,TS val 2704612434 ecr 1853384437], length 0
+18:51:59.424332 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [P.], seq 4184432614:4184432638, ack 2986164430, win 530, options [nop,nop,TS val 2320902322 ecr 1996620190], length 24
+18:51:59.424628 IP 192.168.2.66.34584 > ec2-34-233-138-108.compute-1.amazonaws.com.https: Flags [P.], seq 1:29, ack 24, win 501, options [nop,nop,TS val 1996630185 ecr 2320902322], length 28
+18:51:59.446821 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [.], ack 29, win 530, options [nop,nop,TS val 2320902344 ecr 1996630185], length 0
+18:52:09.418533 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [P.], seq 24:48, ack 29, win 530, options [nop,nop,TS val 2320912321 ecr 1996630185], length 24
+18:52:09.418945 IP 192.168.2.66.34584 > ec2-34-233-138-108.compute-1.amazonaws.com.https: Flags [P.], seq 29:57, ack 48, win 501, options [nop,nop,TS val 1996640179 ecr 2320912321], length 28
+18:52:09.439996 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [.], ack 57, win 530, options [nop,nop,TS val 2320912343 ecr 1996640179], length 0
+^C
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel

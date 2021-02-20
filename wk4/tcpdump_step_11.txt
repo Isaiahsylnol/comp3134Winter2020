@@ -1,0 +1,44 @@
+# tcpdump -i eth0 src 157.240.2.35
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:05:00.030307 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 3364119501:3364119540, ack 2295757132, win 292, options [nop,nop,TS val 1011623171 ecr 2435847076], length 39
+19:05:10.006922 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 39:74, ack 361, win 299, options [nop,nop,TS val 1011633152 ecr 2435857053], length 35
+19:05:10.023035 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [.], ack 1469, win 314, options [nop,nop,TS val 1011633169 ecr 2435857071], length 0
+19:05:10.023094 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 74:109, ack 1469, win 314, options [nop,nop,TS val 1011633169 ecr 2435857071], length 35
+19:05:10.044624 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 109:280, ack 1469, win 314, options [nop,nop,TS val 1011633185 ecr 2435857071], length 171
+19:05:10.053896 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 1660:3040, ack 1469, win 314, options [nop,nop,TS val 1011633200 ecr 2435857087], length 1380
+19:05:10.054053 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [.], seq 280:1660, ack 1469, win 314, options [nop,nop,TS val 1011633200 ecr 2435857087], length 1380
+19:05:10.058604 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 4420:5800, ack 1469, win 314, options [nop,nop,TS val 1011633200 ecr 2435857087], length 1380
+19:05:10.058750 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 7180:8560, ack 1469, win 314, options [nop,nop,TS val 1011633202 ecr 2435857087], length 1380
+19:05:10.058820 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [.], seq 5800:7180, ack 1469, win 314, options [nop,nop,TS val 1011633202 ecr 2435857087], length 1380
+19:05:10.058888 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 8560:11320, ack 1469, win 314, options [nop,nop,TS val 1011633204 ecr 2435857087], length 2760
+19:05:10.058978 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [.], seq 3040:4420, ack 1469, win 314, options [nop,nop,TS val 1011633200 ecr 2435857087], length 1380
+19:05:10.060968 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 11320:14080, ack 1469, win 314, options [nop,nop,TS val 1011633207 ecr 2435857109], length 2760
+19:05:10.061773 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [.], seq 14080:15460, ack 1469, win 314, options [nop,nop,TS val 1011633207 ecr 2435857109], length 1380
+19:05:10.074232 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 15460:15891, ack 1469, win 314, options [nop,nop,TS val 1011633216 ecr 2435857118], length 431
+19:05:10.721505 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 15891:15926, ack 1891, win 321, options [nop,nop,TS val 1011633866 ecr 2435857767], length 35
+19:05:10.736372 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49240: Flags [P.], seq 15926:17113, ack 1891, win 321, options [nop,nop,TS val 1011633882 ecr 2435857767], length 1187
+19:05:11.031187 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [S.], seq 1416681238, ack 2522378691, win 65535, options [mss 1392,sackOK,TS val 101591336 ecr 2435858077,nop,wscale 8], length 0
+19:05:11.051383 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], ack 518, win 261, options [nop,nop,TS val 101591356 ecr 2435858098], length 0
+19:05:11.062672 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], seq 1:1381, ack 518, win 261, options [nop,nop,TS val 101591358 ecr 2435858098], length 1380
+19:05:11.070849 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 2761:3378, ack 518, win 261, options [nop,nop,TS val 101591358 ecr 2435858098], length 617
+19:05:11.071028 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 1381:2761, ack 518, win 261, options [nop,nop,TS val 101591358 ecr 2435858098], length 1380
+19:05:11.160514 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], ack 582, win 261, options [nop,nop,TS val 101591465 ecr 2435858207], length 0
+19:05:11.160586 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 3378:3544, ack 582, win 261, options [nop,nop,TS val 101591465 ecr 2435858207], length 166
+19:05:11.160929 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 3544:3618, ack 582, win 261, options [nop,nop,TS val 101591465 ecr 2435858207], length 74
+19:05:11.161140 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], ack 752, win 265, options [nop,nop,TS val 101591466 ecr 2435858207], length 0
+19:05:11.161144 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 3618:3649, ack 752, win 265, options [nop,nop,TS val 101591466 ecr 2435858207], length 31
+19:05:11.161145 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], ack 1129, win 269, options [nop,nop,TS val 101591466 ecr 2435858208], length 0
+19:05:11.161520 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 3649:3684, ack 1129, win 269, options [nop,nop,TS val 101591467 ecr 2435858208], length 35
+19:05:11.185814 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], ack 1160, win 269, options [nop,nop,TS val 101591484 ecr 2435858226], length 0
+19:05:11.234330 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 5064:6444, ack 1160, win 269, options [nop,nop,TS val 101591528 ecr 2435858226], length 1380
+19:05:11.234834 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], seq 3684:5064, ack 1160, win 269, options [nop,nop,TS val 101591528 ecr 2435858226], length 1380
+19:05:11.235265 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 7824:9204, ack 1160, win 269, options [nop,nop,TS val 101591528 ecr 2435858226], length 1380
+19:05:11.235641 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [.], seq 6444:7824, ack 1160, win 269, options [nop,nop,TS val 101591528 ecr 2435858226], length 1380
+19:05:11.235955 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 9204:11964, ack 1160, win 269, options [nop,nop,TS val 101591530 ecr 2435858226], length 2760
+19:05:11.236266 IP edge-star-mini-shv-01-ort2.facebook.com.https > 192.168.2.66.49246: Flags [P.], seq 11964:12291, ack 1160, win 269, options [nop,nop,TS val 101591532 ecr 2435858226], length 327
+^C
+36 packets captured
+36 packets received by filter
+0 packets dropped by kernel

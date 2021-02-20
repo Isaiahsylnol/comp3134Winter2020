@@ -1,0 +1,104 @@
+# tcpdump -r 0001.pcap    
+                                                                                                             1 ⨯
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+18:47:59.546676 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [P.], seq 4184432038:4184432062, ack 2986163758, win 530, options [nop,nop,TS val 2320662318 ecr 1996380307], length 24
+18:47:59.546890 IP 192.168.2.66.34584 > ec2-34-233-138-108.compute-1.amazonaws.com.https: Flags [P.], seq 1:29, ack 24, win 501, options [nop,nop,TS val 1996390307 ecr 2320662318], length 28
+18:47:59.574163 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [.], ack 29, win 530, options [nop,nop,TS val 2320662344 ecr 1996390307], length 0
+18:47:59.692152 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:47:59.794523 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0 [2q] [3n] [1au] ANY (QU)? 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. ANY (QM)? iPad.local. (185)
+18:47:59.999108 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0 [2q] [3n] [1au] ANY (QU)? 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. ANY (QM)? iPad.local. (185)
+18:48:00.000194 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0 [2q] [3n] [1au] ANY (QM)? 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. ANY (QM)? iPad.local. (185)
+18:48:00.000197 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0 [2q] [3n] [1au] ANY (QM)? 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. ANY (QM)? iPad.local. (185)
+18:48:00.106064 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0 [2a] [2q] [1au] PTR (QM)? _hap._tcp.local. PTR (QM)? _sleep-proxy._udp.local. (151)
+18:48:00.106068 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0 [2a] [2q] [1au] PTR (QM)? _hap._tcp.local. PTR (QM)? _sleep-proxy._udp.local. (151)
+18:48:00.106069 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 2/0/3 (Cache flush) PTR iPad.local., (Cache flush) PTR iPad.local. (202)
+18:48:00.106075 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 2/0/3 (Cache flush) PTR iPad.local., (Cache flush) PTR iPad.local. (202)
+18:48:00.106076 IP 192.168.2.24.39989 > 239.255.255.250.15600: UDP, length 35
+18:48:00.204873 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0 [1n] [1au] ANY (QM)? 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. (135)
+18:48:00.204878 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0 [1n] [1au] ANY (QM)? 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. (135)
+18:48:00.204879 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 2/0/2 (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (109)
+18:48:00.204885 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 2/0/2 (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (109)
+18:48:00.513322 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 5/0/2 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0 (242)
+18:48:00.513326 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 5/0/2 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0 (242)
+18:48:00.615679 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:00.920622 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 2/0/2 (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (109)
+18:48:00.920626 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 2/0/2 (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (109)
+18:48:01.050724 ARP, Request who-has 192.168.2.61 tell 192.168.2.24, length 46
+18:48:01.431907 IP 192.168.2.18.52932 > 239.255.255.250.1900: UDP, length 174
+18:48:01.535114 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 5/0/2 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0 (242)
+18:48:01.535118 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 5/0/2 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0 (242)
+18:48:01.600412 ARP, Request who-has 192.168.2.61 tell 192.168.2.12, length 46
+18:48:01.637181 IP 192.168.2.63.17500 > 255.255.255.255.17500: UDP, length 134
+18:48:01.637190 IP 192.168.2.63.17500 > 192.168.2.255.17500: UDP, length 134
+18:48:01.739783 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:01.739787 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:01.979155 IP 192.168.2.61.17500 > 192.168.2.255.17500: UDP, length 144
+18:48:02.151022 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/4 (Cache flush) PTR iPad.local., (Cache flush) PTR iPad.local., (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (266)
+18:48:02.151026 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/4 (Cache flush) PTR iPad.local., (Cache flush) PTR iPad.local., (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (266)
+18:48:02.151027 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:02.252427 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:02.457301 IP 192.168.2.18.52932 > 239.255.255.250.1900: UDP, length 174
+18:48:03.075518 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0 [2a] [2q] [1au] PTR (QM)? _hap._tcp.local. PTR (QM)? _sleep-proxy._udp.local. (151)
+18:48:03.075522 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0 [2a] [2q] [1au] PTR (QM)? _hap._tcp.local. PTR (QM)? _sleep-proxy._udp.local. (151)
+18:48:03.075523 IP 192.168.2.24.46893 > 192.168.2.255.15600: UDP, length 35
+18:48:03.480965 IP 192.168.2.18.52932 > 239.255.255.250.1900: UDP, length 174
+18:48:03.480969 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 5/0/2 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0 (242)
+18:48:03.480969 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 5/0/2 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0 (242)
+18:48:03.683853 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:03.785896 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:04.400607 IP 192.168.2.18.52932 > 239.255.255.250.1900: UDP, length 174
+18:48:04.709350 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:05.116863 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:05.323628 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:05.730510 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:05.866850 IP 192.168.2.66.46274 > edge-star-mini-shv-02-ort2.facebook.com.https: Flags [P.], seq 2673119023:2673119062, ack 2923627413, win 501, options [nop,nop,TS val 2591647320 ecr 835170768], length 39
+18:48:05.879215 IP edge-star-mini-shv-02-ort2.facebook.com.https > 192.168.2.66.46274: Flags [P.], seq 1:40, ack 39, win 291, options [nop,nop,TS val 835229152 ecr 2591647320], length 39
+18:48:05.879234 IP 192.168.2.66.46274 > edge-star-mini-shv-02-ort2.facebook.com.https: Flags [.], ack 40, win 501, options [nop,nop,TS val 2591647332 ecr 835229152], length 0
+18:48:06.039028 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0*- [0q] 9/0/5 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0, (Cache flush) PTR iPad.local., (Cache flush) PTR iPad.local., (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (463)
+18:48:06.039032 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0*- [0q] 9/0/5 (Cache flush) TXT "", PTR _apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., (Cache flush) SRV iPad.local.:32498 0 0, (Cache flush) PTR iPad.local., (Cache flush) PTR iPad.local., (Cache flush) AAAA fe80::1065:ced9:5ec:ad3a, (Cache flush) A 192.168.2.36 (463)
+18:48:06.141672 IP 192.168.2.24.39768 > 239.255.255.250.15600: UDP, length 35
+18:48:06.651953 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:07.675859 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:07.777640 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:07.880549 IP 192.168.2.59.mdns > 224.0.0.251.mdns: 0 [2a] [3q] [1au] PTR (QM)? _homekit._tcp.local. PTR (QM)? _companion-link._tcp.local. PTR (QM)? _hap._udp.local. (168)
+18:48:07.880553 IP6 fe80::1497:db89:a03c:5fcb.mdns > ff02::fb.mdns: 0 [2a] [3q] [1au] PTR (QM)? _homekit._tcp.local. PTR (QM)? _companion-link._tcp.local. PTR (QM)? _hap._udp.local. (168)
+18:48:08.187546 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:08.291492 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:09.107780 IP 192.168.2.24.40933 > 192.168.2.255.15600: UDP, length 35
+18:48:09.536805 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [P.], seq 24:48, ack 29, win 530, options [nop,nop,TS val 2320672318 ecr 1996390307], length 24
+18:48:09.537156 IP 192.168.2.66.34584 > ec2-34-233-138-108.compute-1.amazonaws.com.https: Flags [P.], seq 29:57, ack 48, win 501, options [nop,nop,TS val 1996400297 ecr 2320672318], length 28
+18:48:09.558222 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [.], ack 57, win 530, options [nop,nop,TS val 2320672339 ecr 1996400297], length 0
+18:48:09.620730 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:09.722182 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:10.745938 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:11.155726 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:11.361391 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:11.769196 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:12.076146 IP 192.168.2.36.mdns > 224.0.0.251.mdns: 0 [2a] [2q] [1au] PTR (QM)? _hap._tcp.local. PTR (QM)? _sleep-proxy._udp.local. (151)
+18:48:12.077104 IP6 fe80::1065:ced9:5ec:ad3a.mdns > ff02::fb.mdns: 0 [2a] [2q] [1au] PTR (QM)? _hap._tcp.local. PTR (QM)? _sleep-proxy._udp.local. (151)
+18:48:12.077105 IP 192.168.2.24.38365 > 239.255.255.250.15600: UDP, length 35
+18:48:12.690571 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:13.714416 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:13.816148 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:14.123759 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:14.331326 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:15.146485 IP 192.168.2.24.34708 > 192.168.2.255.15600: UDP, length 35
+18:48:15.658703 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:15.761796 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:16.682490 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:17.194311 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:17.400239 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:17.808140 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:18.114785 IP 192.168.2.24.53153 > 239.255.255.250.15600: UDP, length 35
+18:48:18.627725 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:19.531844 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [P.], seq 48:72, ack 57, win 530, options [nop,nop,TS val 2320682318 ecr 1996400297], length 24
+18:48:19.532078 IP 192.168.2.66.34584 > ec2-34-233-138-108.compute-1.amazonaws.com.https: Flags [P.], seq 57:85, ack 72, win 501, options [nop,nop,TS val 1996410292 ecr 2320682318], length 28
+18:48:19.553313 IP ec2-34-233-138-108.compute-1.amazonaws.com.https > 192.168.2.66.34584: Flags [.], ack 85, win 530, options [nop,nop,TS val 2320682339 ecr 1996410292], length 0
+18:48:19.753080 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:48:19.753519 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:20.162504 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:48:20.368364 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:48:21.083350 IP 192.168.2.24.38795 > 192.168.2.255.15600: UDP, length 35
+18:48:21.595425 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:48:21.799767 ARP, Request who-has mynetwork tell 192.168.2.24, length 46
+18:48:22.724720 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462

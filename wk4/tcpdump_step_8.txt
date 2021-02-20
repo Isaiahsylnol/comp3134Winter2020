@@ -1,0 +1,20 @@
+# tcpdump -n -i eth0  
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:50:49.494115 IP 34.233.138.108.443 > 192.168.2.66.34584: Flags [.], ack 2986164262, win 530, options [nop,nop,TS val 2320832356 ecr 1996560233], length 0
+18:50:49.694472 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:50:50.103609 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+18:50:50.103617 ARP, Request who-has 192.168.2.1 tell 192.168.2.24, length 46
+18:50:51.134745 IP 192.168.2.24.58189 > 192.168.2.255.15600: UDP, length 35
+18:50:51.540740 IP 192.168.2.36.5353 > 224.0.0.251.5353: 0*- [0q] 2/0/1 PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. (146)
+18:50:51.540749 IP6 fe80::1065:ced9:5ec:ad3a.5353 > ff02::fb.5353: 0*- [0q] 2/0/1 PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local., PTR 9c:04:eb:86:75:b5@fe80::9e04:ebff:fe86:75b5._apple-mobdev2._tcp.local. (146)
+18:50:51.639154 IP 192.168.2.16.1043 > 239.255.255.250.8082: UDP, length 461
+18:50:51.743757 IP 192.168.2.11.1045 > 239.255.255.250.8082: UDP, length 1283
+18:50:52.150261 ARP, Request who-has 192.168.2.1 tell 192.168.2.24, length 46
+18:50:52.662383 IP 192.168.2.17.1099 > 239.255.255.250.8082: UDP, length 462
+18:50:53.174030 IP 192.168.2.14.1063 > 239.255.255.250.8082: UDP, length 461
+^C
+12 packets captured
+12 packets received by filter
+0 packets dropped by kernel

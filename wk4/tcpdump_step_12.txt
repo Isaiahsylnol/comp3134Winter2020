@@ -1,0 +1,10 @@
+# tcpdump -i eth0 dst 157.240.2.35 
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:24:05.829216 IP 192.168.2.66.49270 > edge-star-mini-shv-01-ort2.facebook.com.https: Flags [P.], seq 715320845:715320884, ack 3633493483, win 501, options [nop,nop,TS val 2436992893 ecr 2228487532], length 39
+19:24:05.843391 IP 192.168.2.66.49270 > edge-star-mini-shv-01-ort2.facebook.com.https: Flags [.], ack 40, win 501, options [nop,nop,TS val 2436992908 ecr 2228545816], length 0
+^C
+2 packets captured
+2 packets received by filter
+0 packets dropped by kernel

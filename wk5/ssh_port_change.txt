@@ -1,0 +1,2 @@
+Step 6:  ssh root@68.183.205.24 -p 2222     
+Step 7:  ssh –t user@server.com 'sudo reboot'

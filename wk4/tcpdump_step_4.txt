@@ -1,0 +1,10 @@
+# tcpdump -D        
+
+1.eth0 [Up, Running]
+2.lo [Up, Running, Loopback]
+3.any (Pseudo-device that captures on all interfaces) [Up, Running]
+4.bluetooth-monitor (Bluetooth Linux Monitor) [none]
+5.nflog (Linux netfilter log (NFLOG) interface) [none]
+6.nfqueue (Linux netfilter queue (NFQUEUE) interface) [none]
+7.dbus-system (D-Bus system bus) [none]
+8.dbus-session (D-Bus session bus) [none]
