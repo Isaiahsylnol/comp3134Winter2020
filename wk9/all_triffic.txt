@@ -1,0 +1,1 @@
+tcpdump -c 100 -x >/root/all_traffic_20210413_1144.txt
